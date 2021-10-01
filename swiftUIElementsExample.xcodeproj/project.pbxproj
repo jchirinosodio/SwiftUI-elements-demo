@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		355F21292707B1C000C788E2 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F21282707B1C000C788E2 /* FormView.swift */; };
+		355F212B2707C7D400C788E2 /* FormAndTexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F212A2707C7D400C788E2 /* FormAndTexView.swift */; };
 		35DB28AE270795F60074BAB3 /* swiftUIElementsExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB28AD270795F60074BAB3 /* swiftUIElementsExampleApp.swift */; };
 		35DB28B0270795F60074BAB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB28AF270795F60074BAB3 /* ContentView.swift */; };
 		35DB28B2270795F80074BAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DB28B1270795F80074BAB3 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		355F21282707B1C000C788E2 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		355F212A2707C7D400C788E2 /* FormAndTexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormAndTexView.swift; sourceTree = "<group>"; };
 		35DB28AA270795F60074BAB3 /* swiftUIElementsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUIElementsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DB28AD270795F60074BAB3 /* swiftUIElementsExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUIElementsExampleApp.swift; sourceTree = "<group>"; };
 		35DB28AF270795F60074BAB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				355F21282707B1C000C788E2 /* FormView.swift */,
+				355F212A2707C7D400C788E2 /* FormAndTexView.swift */,
 			);
 			path = Form;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				355F21292707B1C000C788E2 /* FormView.swift in Sources */,
 				35DB28B0270795F60074BAB3 /* ContentView.swift in Sources */,
+				355F212B2707C7D400C788E2 /* FormAndTexView.swift in Sources */,
 				35DB28AE270795F60074BAB3 /* swiftUIElementsExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

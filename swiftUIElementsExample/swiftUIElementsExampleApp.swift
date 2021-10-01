@@ -17,10 +17,10 @@ struct swiftUIElementsExampleApp: App {
                         NavigationLink(destination: FormView()) {
                             Text("Forms Example")
                         } //: Navigation to FormView
-                        NavigationLink(destination: FormView()) {
-                            Text("Forms Example")
+                        NavigationLink(destination: FormAndTexView()) {
+                            Text("Forms with TextFields")
                         } //: Navigation to FormView
-                        NavigationLink(destination: FormView()) {
+                        NavigationLink(destination: FormAndTexView()) {
                             Text("Forms Example")
                         } //: Navigation to FormView
                         NavigationLink(destination: FormView()) {
