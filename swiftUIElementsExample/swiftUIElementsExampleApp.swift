@@ -11,7 +11,30 @@ import SwiftUI
 struct swiftUIElementsExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                Form {
+                    Section {
+                        NavigationLink(destination: FormView()) {
+                            Text("Forms Example")
+                        } //: Navigation to FormView
+                        NavigationLink(destination: FormView()) {
+                            Text("Forms Example")
+                        } //: Navigation to FormView
+                        NavigationLink(destination: FormView()) {
+                            Text("Forms Example")
+                        } //: Navigation to FormView
+                        NavigationLink(destination: FormView()) {
+                            Text("Forms Example")
+                        } //: Navigation to FormView
+                        NavigationLink(destination: FormView()) {
+                            Text("Forms Example")
+                        } //: Navigation to FormView
+                        NavigationLink(destination: FormView()) {
+                            Text("Forms Example")
+                        } //: Navigation to FormView
+                    } //: Section A
+                }.navigationBarTitle(Text("SwiftUI elements demo"))
+            } //: Form
         }
     }
 }
