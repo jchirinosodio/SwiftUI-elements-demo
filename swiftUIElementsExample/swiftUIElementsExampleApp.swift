@@ -16,22 +16,20 @@ struct swiftUIElementsExampleApp: App {
                     Section {
                         NavigationLink(destination: FormView()) {
                             Text("Forms Example")
-                        } //: Navigation to FormView
+                        }
                         NavigationLink(destination: FormAndTexView()) {
                             Text("Forms with TextFields")
-                        } //: Navigation to FormView
-                        NavigationLink(destination: FormAndTexView()) {
-                            Text("Forms Example")
-                        } //: Navigation to FormView
-                        NavigationLink(destination: FormView()) {
-                            Text("Forms Example")
-                        } //: Navigation to FormView
-                        NavigationLink(destination: FormView()) {
-                            Text("Forms Example")
-                        } //: Navigation to FormView
-                        NavigationLink(destination: FormView()) {
-                            Text("Forms Example")
-                        } //: Navigation to FormView
+                        }
+                        NavigationLink(destination: PickerView()) {
+                            Text("Pickers")
+                        }
+                        NavigationLink(destination: QuestionView()) {
+                            Text("Questions and answers")
+                        }
+                        NavigationLink(destination: PokemonView()) {
+                            Text("URL Session")
+                        }
+                        
                     } //: Section A
                 }.navigationBarTitle(Text("SwiftUI elements demo"))
             } //: Form

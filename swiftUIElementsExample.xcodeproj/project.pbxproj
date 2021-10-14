@@ -7,22 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351CCC1C2708D942006C464E /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351CCC1B2708D942006C464E /* PickerView.swift */; };
+		35575E9B270FB3E000CAEF61 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35575E9A270FB3E000CAEF61 /* Question.swift */; };
+		35575E9D270FB3F800CAEF61 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35575E9C270FB3F800CAEF61 /* QuestionView.swift */; };
+		35575EA0270FBB7700CAEF61 /* ChoiceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35575E9F270FBB7700CAEF61 /* ChoiceButtonView.swift */; };
+		35575EA32712708A00CAEF61 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35575EA22712708A00CAEF61 /* QuestionViewModel.swift */; };
 		355F21292707B1C000C788E2 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F21282707B1C000C788E2 /* FormView.swift */; };
 		355F212B2707C7D400C788E2 /* FormAndTexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F212A2707C7D400C788E2 /* FormAndTexView.swift */; };
 		35DB28AE270795F60074BAB3 /* swiftUIElementsExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB28AD270795F60074BAB3 /* swiftUIElementsExampleApp.swift */; };
-		35DB28B0270795F60074BAB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB28AF270795F60074BAB3 /* ContentView.swift */; };
 		35DB28B2270795F80074BAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DB28B1270795F80074BAB3 /* Assets.xcassets */; };
 		35DB28B5270795F80074BAB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DB28B4270795F80074BAB3 /* Preview Assets.xcassets */; };
+		35F76BE92717B112000323E2 /* PokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F76BE82717B112000323E2 /* PokemonView.swift */; };
+		35F76BEC2717B130000323E2 /* PokemonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F76BEB2717B130000323E2 /* PokemonModels.swift */; };
+		35F76BEF2717B150000323E2 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F76BEE2717B150000323E2 /* PokemonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		351CCC1B2708D942006C464E /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		35575E9A270FB3E000CAEF61 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		35575E9C270FB3F800CAEF61 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		35575E9F270FBB7700CAEF61 /* ChoiceButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceButtonView.swift; sourceTree = "<group>"; };
+		35575EA22712708A00CAEF61 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
 		355F21282707B1C000C788E2 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		355F212A2707C7D400C788E2 /* FormAndTexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormAndTexView.swift; sourceTree = "<group>"; };
 		35DB28AA270795F60074BAB3 /* swiftUIElementsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUIElementsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DB28AD270795F60074BAB3 /* swiftUIElementsExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUIElementsExampleApp.swift; sourceTree = "<group>"; };
-		35DB28AF270795F60074BAB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35DB28B1270795F80074BAB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35DB28B4270795F80074BAB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35F76BE82717B112000323E2 /* PokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonView.swift; sourceTree = "<group>"; };
+		35F76BEB2717B130000323E2 /* PokemonModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModels.swift; sourceTree = "<group>"; };
+		35F76BEE2717B150000323E2 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		351CCC1A2708D910006C464E /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				351CCC1B2708D942006C464E /* PickerView.swift */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		35575E99270FB3B800CAEF61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35575E9A270FB3E000CAEF61 /* Question.swift */,
+				35575EA22712708A00CAEF61 /* QuestionViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35575E9E270FBB4300CAEF61 /* QuestionsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				35575EA127126B1B00CAEF61 /* Views */,
+				35575E9C270FB3F800CAEF61 /* QuestionView.swift */,
+				35575E99270FB3B800CAEF61 /* Model */,
+			);
+			path = QuestionsScreen;
+			sourceTree = "<group>";
+		};
+		35575EA127126B1B00CAEF61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35575E9F270FBB7700CAEF61 /* ChoiceButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		355F21272707B1AD00C788E2 /* Form */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,9 +113,11 @@
 		35DB28AC270795F60074BAB3 /* swiftUIElementsExample */ = {
 			isa = PBXGroup;
 			children = (
+				35F76BE72717B0FA000323E2 /* Pokemons */,
+				35575E9E270FBB4300CAEF61 /* QuestionsScreen */,
+				351CCC1A2708D910006C464E /* Picker */,
 				355F21272707B1AD00C788E2 /* Form */,
 				35DB28AD270795F60074BAB3 /* swiftUIElementsExampleApp.swift */,
-				35DB28AF270795F60074BAB3 /* ContentView.swift */,
 				35DB28B1270795F80074BAB3 /* Assets.xcassets */,
 				35DB28B3270795F80074BAB3 /* Preview Content */,
 			);
@@ -79,6 +130,24 @@
 				35DB28B4270795F80074BAB3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35F76BE72717B0FA000323E2 /* Pokemons */ = {
+			isa = PBXGroup;
+			children = (
+				35F76BED2717B135000323E2 /* Model */,
+				35F76BE82717B112000323E2 /* PokemonView.swift */,
+			);
+			path = Pokemons;
+			sourceTree = "<group>";
+		};
+		35F76BED2717B135000323E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35F76BEB2717B130000323E2 /* PokemonModels.swift */,
+				35F76BEE2717B150000323E2 /* PokemonViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +221,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				355F21292707B1C000C788E2 /* FormView.swift in Sources */,
-				35DB28B0270795F60074BAB3 /* ContentView.swift in Sources */,
+				35575EA0270FBB7700CAEF61 /* ChoiceButtonView.swift in Sources */,
 				355F212B2707C7D400C788E2 /* FormAndTexView.swift in Sources */,
+				35F76BE92717B112000323E2 /* PokemonView.swift in Sources */,
+				35575E9D270FB3F800CAEF61 /* QuestionView.swift in Sources */,
+				35F76BEC2717B130000323E2 /* PokemonModels.swift in Sources */,
+				35575E9B270FB3E000CAEF61 /* Question.swift in Sources */,
+				35F76BEF2717B150000323E2 /* PokemonViewModel.swift in Sources */,
+				351CCC1C2708D942006C464E /* PickerView.swift in Sources */,
+				35575EA32712708A00CAEF61 /* QuestionViewModel.swift in Sources */,
 				35DB28AE270795F60074BAB3 /* swiftUIElementsExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
