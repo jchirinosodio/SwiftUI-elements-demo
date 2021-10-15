@@ -12,15 +12,26 @@ struct PokemonView: View{
     
     
     var body: some View {
-  
-            List{
+        VStack {
+            List {
                 ForEach(pokemonViewModel.pokemonList, id: \.name) { pokemon in
                     Text(pokemon.name ?? "pokemon name not found")
                 }
-            }.onAppear {
-                pokemonViewModel.getPokemonList()
-            }.navigationTitle("Pokemons")
-        }
+            }.frame(height: 400)
+            Spacer()
+            Text("Code example: ")
+            Image("formsViewImage")
+                .renderingMode(.original)
+                .resizable()
+                .scaledToFit()
+                .cornerRadius(5)
+            Spacer()
+        }.onAppear {
+            pokemonViewModel.getPokemonList()
+        }.navigationTitle("Pokemons")
+        
+        
+    }
     
 }
 

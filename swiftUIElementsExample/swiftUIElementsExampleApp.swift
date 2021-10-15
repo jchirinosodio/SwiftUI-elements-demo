@@ -29,9 +29,12 @@ struct swiftUIElementsExampleApp: App {
                         NavigationLink(destination: PokemonView()) {
                             Text("URL Session")
                         }
+                        NavigationLink(destination: WeatherView()) {
+                            Text("Weather app ☔️")
+                        }
                         
                     } //: Section A
-                }.navigationBarTitle(Text("SwiftUI elements demo"))
+                }.navigationBarTitle(Text("Code Examples"))
             } //: Form
         }
     }

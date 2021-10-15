@@ -19,7 +19,9 @@ class PokemonViewModel: ObservableObject {
             }
             if let requestData = data, let response = urlResponse as? HTTPURLResponse, response.statusCode == 200 {
                 let pokemonsResponse = try! JSONDecoder().decode(PokemonResponse.self, from: requestData)
-                self.pokemonList = pokemonsResponse.pokemons ?? []
+                DispatchQueue.main.async {
+                    self.pokemonList = pokemonsResponse.pokemons ?? []
+                }
             }
         }.resume()
     }
